@@ -8,12 +8,7 @@
 static char *font = "Fira Code:size=12:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-	"Noto Sans Mono:size=12:antialias=true:autohint=true",
 	"Noto Sans Mono CJK SC:size=12:antialias=true:autohint=true",
-	"Noto Sans Mono CJK TC:size=12:antialias=true:autohint=true",
-	"Noto Sans Mono CJK HK:size=12:antialias=true:autohint=true",
-	"Noto Sans Mono CJK JP:size=12:antialias=true:autohint=true",
-	"Noto Sans Mono CJK KR:size=12:antialias=true:autohint=true",
 	"Noto Sans Symbols:size=12:antialias=true:autohint=true",
 	"Noto Sans Symbols2:size=12:antialias=true:autohint=true",
 	"Symbols Nerd Font:style=2048-em:size=12:antialias=true:autohint=true",
