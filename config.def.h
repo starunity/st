@@ -242,9 +242,9 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
 	{ MODKEY,               XK_l,           copyurl,        {.i =  0} },
 	{ MODKEY,               XK_o,           opencopied,     {.v = "xdg-open"} },
-	{ MODKEY|ShiftMask,     XK_l,           externalpipe,   {.v = openurlcmd} },
-	{ MODKEY|ShiftMask,     XK_y,           externalpipe,   {.v = copyurlcmd} },
-	{ MODKEY|ShiftMask,     XK_o,           externalpipe,   {.v = copyoutput} },
+	{ MODKEY|ControlMask,   XK_l,           externalpipe,   {.v = openurlcmd} },
+	{ MODKEY|ControlMask,   XK_y,           externalpipe,   {.v = copyurlcmd} },
+	{ MODKEY|ControlMask,   XK_o,           externalpipe,   {.v = copyoutput} },
 	{ ShiftMask,            XK_Page_Up,     kscrollup,      {.i = -1} },
 	{ ShiftMask,            XK_Page_Down,   kscrolldown,    {.i = -1} },
 };
